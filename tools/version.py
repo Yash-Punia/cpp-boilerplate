@@ -2,5 +2,6 @@
 
 MAJOR = 1
 MINOR = 0
+ProjectName = "ProjectName"
 
-print("Rendeer - v{}.{}".format(MAJOR, MINOR));
+print("{} - v{}.{}".format(ProjectName, MAJOR, MINOR));

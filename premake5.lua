@@ -1,3 +1,5 @@
+-- Change the project name at workspace, startproject
+
 workspace "project"
     startproject "project"
     architecture "x64"
@@ -13,7 +15,8 @@ workspace "project"
 tdir = "bin/%{cfg.buildcfg}/%{prj.name}"
 odir = "bin-obj/%{cfg.buildcfg}/%{prj.name}"
 
---Main editor application
+-- Change the project name at project, location
+
 project "ProjectName"
     location "ProjectName"
     kind "ConsoleApp"
